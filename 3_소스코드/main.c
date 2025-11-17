@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+int main()
+{
+    char names[100][20];
+    int scores[100];
+    int count = 0;
+
+    struct Student
+    {
+        char name[20];
+        int score;
+    };
+    struct Student students[100];
+    printf("%d",&scores);
+}
 /*
     1. [설계]에서 정의한 변수, 배열, (필요하면) 구조체를 여기에 선언하세요.
     
